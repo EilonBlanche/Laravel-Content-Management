@@ -1,0 +1,9 @@
+  
+Instructions in using the app 
+   
+   1. create a new database (laravel_db).
+   2. set database to the .env file in the DB_DATABASE field
+   3. run php artisan migrate --force
+   4. run php artisan db:seed --class=LyricsTableDataSeeder and php artisan db:seed --class=UsersTableDataSeeder
+   5. run php artisan serve
+   6. login using user sample1@email.com with password 123456
